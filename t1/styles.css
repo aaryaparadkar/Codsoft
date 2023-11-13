@@ -1,0 +1,138 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family, color, and line-height */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    font-size: 1.2rem;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 2rem;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  section p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  /* Main container styles */
+  .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Service list styles */
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for card container */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  /* Card styles (optional) */
+  .card {
+    width: 18rem;
+    background-color: #eab676;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Card body styling */
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  /* Card title styling */
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  /* Card text styling */
+  .card-text {
+    font-size: 1.1rem;
+    color: grey;
+  }
+  
+  /* Card button styling */
+  .card-btn {
+    font-size: 1rem;
+  }
+  
+  /* Inspiration section styling */
+  #inspiration {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
